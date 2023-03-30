@@ -1,4 +1,5 @@
 * {
+	background: #ffff00;
 	margin:  0px;
 	padding:  0px;
 	box-sizing: border-box;
@@ -10,18 +11,12 @@ body {
 	margin: 30px;
 	width: 100%;
 	position: relative;
-	font-family: 'EB Garamond', serif;
+	font-family: 'Roboto Slab', serif;
 	transition: background 500ms ease;
 }
 
 ::selection {
-	background: #1b1b1b;
     color: #FFFFFF;
-}
-
-p, li {
-	font-size:  22px;
-	line-height: 30px;
 }
 
 /* adjusting spacing */
@@ -30,18 +25,29 @@ p, li {
 	padding: 20px;
 }
 
-h1, p {
+h1 {
+	font-size: 30px;
+	font-weight: 500;
 	margin-bottom:  20px;
 }
 
+p {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
 ul, ol {
+	font-size: 15px;
 	margin-left: 20px;
 	margin-bottom: 50px;
+	font-weight: 300;
 }
 
 h3 {
 	font-size: 25px;
 	margin-bottom: 20px;
+	font-weight: 400;
 }
 
 img {

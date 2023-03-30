@@ -11,12 +11,12 @@ body {
 	margin: 30px;
 	width: 100%;
 	position: relative;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	transition: background 500ms ease;
 }
 
 ::selection {
-    color: #FFFFFF;
+    color: #FFFFFF
 }
 
 /* adjusting spacing */
@@ -27,37 +27,41 @@ body {
 
 h1 {
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom:  20px;
 }
 
 p {
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	margin-bottom: 20px;
 }
 
 ul, ol {
 	font-size: 15px;
+	font-weight: 400;
+	line-height: 2em;
 	margin-left: 20px;
 	margin-bottom: 50px;
-	font-weight: 300;
+
 }
 
 h3 {
 	font-size: 25px;
-	margin-bottom: 20px;
-	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 12px;
+	font-weight: 600;
 }
 
 img {
-	max-width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 75%;
 	height:  auto;
+	border-radius: 8px;
 }
 
-/* uncomment the code below to set the grid */
-
-/*#grid {
+.container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -71,10 +75,10 @@ body {
 	overflow: scroll;
 	height: 100vh;
 }
-
+/* 
 #left-column {
-}
+} */
 
 #right-column {
 	background: #333;
-}*/
+}

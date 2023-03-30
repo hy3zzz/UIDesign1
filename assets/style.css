@@ -7,8 +7,16 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	margin: 30px;
+	width: 100%;
+	position: relative;
+	font-family: 'EB Garamond', serif;
 	transition: background 500ms ease;
+}
+
+::selection {
+	background: #1b1b1b;
+    color: #FFFFFF;
 }
 
 p, li {
@@ -28,6 +36,12 @@ h1, p {
 
 ul, ol {
 	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 20px;
 }
 
 img {
